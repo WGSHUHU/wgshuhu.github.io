@@ -855,7 +855,7 @@ blockquote p {
 }
 .nav-wrap {
   position: fixed;
-  bottom: 220px;
+  bottom: 270px;
   right: 0;
   max-width: 50px;
   visibility: hidden;
@@ -962,6 +962,7 @@ blockquote p {
   padding: 10px 20px;
   text-decoration: none;
   transition: all 0.2s ease-in-out 0s;
+  white-space: nowrap;
 }
 .nav_items li a:hover {
   color: #5c6266;
