@@ -1,7 +1,7 @@
 $(function () {
     function pgeAdaptation(){
-        if ($(window).width() < 1280 && $(window).width()>540) {
-            $(".page").css({"width": $(window).width() - $(".side-card").width() - 90, "float": "left"})
+        if ($(window).width() > 750) {
+            $(".grid-container").css({"grid-template-columns": '33.3% 33.3% 33.3%'})
         } else {
             $(".page").removeAttr("style")
             $(".grid-container").css({"grid-template-columns": '100%'})
